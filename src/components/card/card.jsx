@@ -1,7 +1,7 @@
 import { Card, CardMedia, CardContent, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import "./card.css"
-import {title, body} from "../API call/Api"
+
 
 
 export default function ProductCard(props) {

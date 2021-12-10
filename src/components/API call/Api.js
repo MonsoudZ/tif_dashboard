@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import ProductCard from "../card/card";
+import BlogPosts from "../card/Blog";
 
 
 export default class Api extends React.Component {
@@ -27,7 +28,7 @@ export default class Api extends React.Component {
                     this.state.hookups
                         .map(hookup =>
                             // <li key={hookup.title}>{hookup.rank}</li>
-                            <ProductCard title ={hookup.title} body ={hookup.body}/>
+                            <BlogPosts title ={hookup.title} body ={hookup.body}/>
                         )
                 }
             </ul>
